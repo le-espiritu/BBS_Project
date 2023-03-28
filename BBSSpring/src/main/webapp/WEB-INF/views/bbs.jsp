@@ -47,7 +47,7 @@
 			<nav>
 				<ul>
 					<li><a href="main">메인</a></li>
-					<li><a href="bbs">게시판</a></li>
+					<li><a href="posts">게시판</a></li>
 				</ul>
 			</nav>
 			
@@ -79,18 +79,18 @@
 						<a href="#">이전</a>&nbsp; &nbsp;
 					</c:if>
 					<c:if test="${start!=0}">
-						<a href="bbs?start=${start-10}">이전</a>&nbsp; &nbsp;
+						<a href="posts?start=${start-10}">이전</a>&nbsp; &nbsp;
 					</c:if>
 					
 					<c:forEach items="${pageStartList}" var="pageIndex" varStatus="status">
-						<a href="bbs?start=${pageIndex}">${status.index+1}</a>&nbsp; &nbsp;
+						<a href="posts?start=${pageIndex}">${status.index+1}</a>&nbsp; &nbsp;
 					</c:forEach>
 					
 					<c:if test="${isNextPage==false}">
 						<a href="#">다음</a>&nbsp; &nbsp;
 					</c:if>
 					<c:if test="${isNextPage==true }">
-						<a href="bbs?start=${start+10}">다음</a>&nbsp; &nbsp;
+						<a href="posts?start=${start+10}">다음</a>&nbsp; &nbsp;
 					</c:if>
 					
 				</div>

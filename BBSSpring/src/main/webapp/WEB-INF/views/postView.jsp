@@ -60,7 +60,7 @@
 			<nav>
 				<ul>
 					<li><a href="/BBSSpring/main">메인</a></li>
-					<li><a href="/BBSSpring/bbs">게시판</a></li>
+					<li><a href="/BBSSpring/posts">게시판</a></li>
 				</ul>
 			</nav>
 			

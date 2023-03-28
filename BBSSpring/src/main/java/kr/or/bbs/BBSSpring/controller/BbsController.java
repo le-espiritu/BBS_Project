@@ -32,7 +32,7 @@ public class BbsController {
 		this.bbsService=bbsService;
 	}
 	
-	@GetMapping(path="/bbs")
+	@GetMapping(path="/posts")
 	public String getBbsPage(@RequestParam(name="start", required = false, defaultValue="0") int start,
 							ModelMap model) {
 		

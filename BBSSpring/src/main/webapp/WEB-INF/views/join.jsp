@@ -28,7 +28,7 @@
 			<nav>
 				<ul>
 					<li><a href="main">메인</a></li>
-					<li><a href="bbs">게시판</a></li>
+					<li><a href="posts">게시판</a></li>
 				</ul>
 			</nav>
 			

@@ -54,7 +54,7 @@
 			<nav>
 				<ul>
 					<li><a href="/BBSSpring/main">메인</a></li>
-					<li><a href="/BBSSprint/bbs">게시판</a></li>
+					<li><a href="/BBSSprint/posts">게시판</a></li>
 				</ul>
 			</nav>
 			
